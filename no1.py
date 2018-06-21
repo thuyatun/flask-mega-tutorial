@@ -6,5 +6,5 @@ app = Flask(__name__)
 def home():
     return "Hello! my name is thuyatun"
 
-if __name__ == "__main":
+if __name__ == '__main__':
     app.run(debug=True)
